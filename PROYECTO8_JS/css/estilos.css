@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body{
+    background-color:#55CCD9;
+}
+
+#cuentaRegresiva{
+
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 60px;
+    font-size: 30px;
+    color: white;
+    justify-content: space-around;
+    width: 310px;
+    
+ 
+    
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.time h1{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tiempoActual{
+    background-color: aqua;
+    color: saddlebrown;
+}
+
+#dia{
+
+    display: flex;
+    border: 2px solid white;
+    width: 50px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+
+    
+}
+
+#segundo{
+  
+    display: flex;
+    border: 2px solid white;
+    width: 50px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#minuto{
+    display: flex;
+    border: 2px solid white;
+    width: 50px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#hora{
+    display: flex;
+    border: 2px solid white;
+    width: 50px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#mensajito{
+    color: red;
+    margin-top: 30vh;
+    margin-right: 20px;
+    width: 30.5%;
+    justify-content: center;
+    display: flex;
+}
+
+#playBtn{
+    border: none;
+    border-radius: 20rem;
+    width: 6rem;
+    height: 3rem;
+    background-color: red;
+    color: white;
+}
+#pauseBtn{
+    border: none;
+    border-radius: 20rem;
+    width: 6rem;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    font-family:cursive;
+    cursor: pointer;
+}
+
+#reproductor{
+    display: flex;
+    margin-top: 80px;
+    margin-left: -290px;
+}
+
+.papa{
+    display: flex;
+    flex-direction: row;
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.papaNoeloff{
+    width: 850px;
+    height: 800px;
+    background-image: url(../img/papaNoel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.papaNoeloff.on{
+    background-image: url(../img/papaNoel1.gif);
+}

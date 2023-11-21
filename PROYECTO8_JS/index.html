@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Navidad</title>
+</head>
+<body>
+   
+    
+<div class="papa">
+
+    <div class="hijo">
+        <h1 id="mensajito">Faltan para navidad</h1>
+        <div id="cuentaRegresiva">
+    
+        <div class="time">
+            <div id="dia"></div>
+            <h1>D</h1>
+        </div>
+        <div class="time">
+            <div id="hora"></div>
+            <h1>H</h1>
+        </div>
+        <div class="time">
+            <div id="minuto"></div>
+            <h1>M</h1>
+        </div>
+    
+        <div class="time">
+            <div id="segundo"></div>
+            <h1>S</h1>
+        </div>
+        <div id="reproductor">
+            <audio id="audio" src="./aud/allWant.mp3"></audio>
+            <button id="playBtn" onclick="play()">Play</button>
+            <button id="pauseBtn" onclick="pause()">Pause</button>
+        </div>
+        </div>
+
+    </div>
+        
+  
+    <div id="papaNoeloff" class="papaNoeloff">
+
+    </div>
+
+     <script src="./script.js"></script>
+    
+</body>
+</html>
